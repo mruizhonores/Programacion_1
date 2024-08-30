@@ -25,7 +25,7 @@ def PromedioCalif(MatrizCalif):
             suma += fila[j]
             j = j + 1
         promedio = suma / len(fila)
-        print("El promedio de calificaciones del Estudiante: ", (i + 1), " es: ", (promedio))
+        print("El promedio de calificaciones del estudiante: ", (i + 1), " es: ", (promedio))
         i += 1
 
 def calcular_promedio_materias(MatrizCalif):
@@ -39,8 +39,8 @@ def calcular_promedio_materias(MatrizCalif):
 
 
 # número de estudiantes y materias
-n = int(input("Ingrese el nro de estudiantes: "))
-m = int(input("Ingrese el nro de materias: "))
+n = int(input("Ingrese el numero de estudiantes: "))
+m = int(input("Ingrese el numero de materias: "))
 
 MatrizCalif = []
 
